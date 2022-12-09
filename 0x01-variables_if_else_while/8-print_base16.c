@@ -4,14 +4,24 @@
  *
  * Return: alway returns 0
  */
-int main (void)
+int main(void)
 {
 
-char a;
+unsigned char a = '0';
+int i;
 
-for (a = 'z'; a >= 'a' ; a--)
+for (i = 0; i < 10; i++)
+{
 	putchar(a);
+	a++;
+}
+a = '1';
+
+for (i = 0; i < 6; i++)
+	putchar('0' + a);
+	a++;
 putchar('\n');
-return 0;
+
+return (0);
 
 }
