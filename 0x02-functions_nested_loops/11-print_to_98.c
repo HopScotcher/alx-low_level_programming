@@ -2,6 +2,12 @@
 #include "6-abs.c"
 #include <stdio.h>
 
+/**
+ * print_to_98 - main function
+ *@n - integer
+ * return - a list of numbers
+ */
+
 void print_to_98(int n)
 {
 	int i;
@@ -14,9 +20,9 @@ void print_to_98(int n)
 			if (i != 98)
 			{
 				printf(", ");
-			
+
 			}
-		
+
 		}
 	}
 	else
@@ -28,11 +34,11 @@ void print_to_98(int n)
 			if (i != 98)
 			{
 				printf(", ");
-			
+
 			}
-		
+
 		}
-	
+
 	}
 	printf("\n");
 
