@@ -4,8 +4,8 @@
 
 /**
  * print_to_98 - main function
- *@n - integer
- * return - a list of numbers
+ *@n: character to compare
+ * return: a list of numbers
  */
 
 void print_to_98(int n)
