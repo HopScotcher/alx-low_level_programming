@@ -1,5 +1,4 @@
 #include "main.h"
-#include "2-strlen.c"
 
 /**
  * puts2 - puts string twice
@@ -9,12 +8,13 @@ void puts2(char *str)
 {
 	int i;
 
-	for (i = 0; i < _strlen(str); i++)
+	i = 0;
+
+	while (str[i] != '\0')
 	{
 		if (i % 2 == 0)
-		{
 			_putchar(str[i]);
-		}
+		i++;
 	}
 	_putchar('\n');
 
